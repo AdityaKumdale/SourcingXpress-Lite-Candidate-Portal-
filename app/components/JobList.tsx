@@ -5,7 +5,7 @@ import { Job } from '../types/types';
 import Card from './JobCard';
 
 export default function JobList({ jobs, searchTerm, currentTab, onClear, storageKey }: { jobs: Job[], searchTerm: string, currentTab: string, onClear: () => void, storageKey: string }) {
-    
+
     // Initialize from session storage
     // const [visibleCount, setVisibleCount] = useState(() => {
     //     if (typeof window !== 'undefined') {
@@ -14,9 +14,9 @@ export default function JobList({ jobs, searchTerm, currentTab, onClear, storage
     //     }
     //     return 10;
     // })
-     const [visibleCount, setVisibleCount] = useState(10);
+    const [visibleCount, setVisibleCount] = useState(10);
 
-    const loadMoreRef = useRef<HTMLDivElement>(null); 
+    const loadMoreRef = useRef<HTMLDivElement>(null);
 
     // useLayoutEffect(() => {
     //     if (typeof window !== 'undefined' && 'scrollRestoration' in window.history) {
@@ -44,7 +44,7 @@ export default function JobList({ jobs, searchTerm, currentTab, onClear, storage
             const target = entries[0];
             if (target.isIntersecting && visibleCount < jobs.length) {
                 setTimeout(() => {
-                     setVisibleCount(prev => prev + 10);
+                    setVisibleCount(prev => prev + 10);
                 }, 500);
             }
         }, { root: null, rootMargin: "100px", threshold: 0.1 });
@@ -58,9 +58,9 @@ export default function JobList({ jobs, searchTerm, currentTab, onClear, storage
         return (
             <div className="text-center p-10">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-700">
-                    {searchTerm 
-                       ? `No ${currentTab === 'applied' ? 'applied' : ''} jobs found for "${searchTerm}".`
-                       : `No ${currentTab === 'applied' ? 'applied' : ''} jobs found.`
+                    {searchTerm
+                        ? `No ${currentTab === 'applied' ? 'applied' : ''} jobs found for "${searchTerm}".`
+                        : `No ${currentTab === 'applied' ? 'applied' : ''} jobs found.`
                     }
                 </h2>
                 <button onClick={onClear} className="bg-red-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-red-600">
@@ -78,8 +78,8 @@ export default function JobList({ jobs, searchTerm, currentTab, onClear, storage
             <h2 className="text-center text-lg font-medium mb-4 text-gray-600">
                 Found {jobs.length} {jobs.length === 1 ? 'job' : 'jobs'}.
             </h2>
-            
-            <div className="flex flex-col gap-4 mt-2"> 
+
+            <div className="flex flex-col gap-4 mt-2">
                 {visibleJobs.map(job => <Card key={job.id} jobData={job} />)}
             </div>
 

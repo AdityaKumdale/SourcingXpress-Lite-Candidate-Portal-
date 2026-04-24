@@ -24,7 +24,7 @@ export default function JobsClientPage({
   const [appliedJobs, setAppliedJobs] = useState<Job[]>([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // 1. Check Auth & Fetch Applied Jobs on Mount
+  // Sync authentication and fetch user's applied jobs
   useEffect(() => {
     const loggedIn = localStorage.getItem("loggedin") === "true";
     setIsLoggedIn(loggedIn);
@@ -53,7 +53,7 @@ export default function JobsClientPage({
     }
   }, [searchParams.search]); // Re-fetch if search changes
 
-  // 2. Debounce Search
+  // Sync search query with URL params via debouncing
   useEffect(() => {
     const timer = setTimeout(() => {
       if (search !== searchParams.search) {
@@ -69,7 +69,7 @@ export default function JobsClientPage({
 
   const handleClear = () => setSearch("");
 
-  // 3. Determine what to show
+  // Select jobs based on the active tab
   const currentTab = searchParams.tab;
   const jobsToShow = currentTab === 'applied' ? appliedJobs : initialLiveJobs;
   const storageKey = `jobList_${currentTab}_${searchParams.search || 'all'}`;

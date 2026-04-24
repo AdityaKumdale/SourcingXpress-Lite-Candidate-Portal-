@@ -38,17 +38,12 @@ const RadarSection = () => {
       viewport={{ once: true, amount: 0.3 }} // Trigger when 30% visible, run once
       variants={containerVariants}
     >
-      {/* 1. Static Dashed Circles 
-          We keep these as standard divs as they don't move. 
-      */}
+      {/* Background decoration: Static dashed circles */}
       <div className="absolute w-full h-full border border-dashed border-gray-300 rounded-full" />
       <div className="absolute w-[70%] h-[70%] border border-dashed border-gray-300 rounded-full" />
       <div className="absolute w-[40%] h-[40%] border border-dashed border-gray-300 rounded-full" />
 
-      {/* 2. Rotating Radar Scanner 
-          OPTIMIZATION: Independent animation loop.
-          'willChange' forces GPU layer promotion to prevent lag under load.
-      */}
+      {/* Rotating radar scanner effect */}
       <motion.div
         className="absolute inset-0 rounded-full z-0"
         style={{ willChange: "transform" }}
@@ -61,7 +56,7 @@ const RadarSection = () => {
         <div className="absolute top-0 left-1/2 w-[2px] h-1/2 bg-gradient-to-t from-orange-400/50 to-orange-400 origin-bottom -translate-x-1/2" />
       </motion.div>
 
-      {/* 3. Center Avatar */}
+      {/* Central featured avatar */}
       <motion.div
         className="absolute z-20 w-20 h-20 sm:w-24 sm:h-24 rounded-full border-4 border-white shadow-xl overflow-hidden bg-gray-200"
         variants={avatarVariants}
@@ -73,9 +68,7 @@ const RadarSection = () => {
         />
       </motion.div>
 
-      {/* 4. Satellite Avatars 
-          Notice we removed the manual delay classes. The parent 'containerVariants' handles the timing.
-      */}
+      {/* Surrounding satellite avatars */}
       
       {/* Top Left */}
       <motion.div

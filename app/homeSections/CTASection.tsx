@@ -13,13 +13,13 @@ const CTASection: React.FC = () => {
           Ready to Transform Your Hiring?
         </h2>
 
-        {/* 2. Subheading */}
+        {/* Call to action subheading */}
         <p className="text-lg md:text-xl text-orange-100 mb-10 max-w-3xl mx-auto leading-relaxed">
           Join hundreds of recruiters already using SourcingXPress to find, 
           engage, and hire the best tech talent faster than ever before.
         </p>
 
-        {/* 3. Action Buttons */}
+        {/* Primary action buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-16">
           
           {/* Post Job Button */}
@@ -36,7 +36,7 @@ const CTASection: React.FC = () => {
           </button>
         </div>
 
-        {/* 4. Contact Info Row */}
+        {/* Footer contact information */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 text-sm md:text-base font-medium text-orange-50 border-t border-white/10 pt-10">
           
           {/* Email */}

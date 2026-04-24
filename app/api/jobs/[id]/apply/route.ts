@@ -1,15 +1,15 @@
 import { NextResponse } from 'next/server';
-import { readDb,writeDb } from '../../../../lib/db'; 
-import { randomUUID } from 'crypto'; // Native Node module
+import { readDb, writeDb } from '../../../../lib/db';
+import { randomUUID } from 'crypto';
 import { Application } from '../../../../types/types';
 
 
 
 export async function POST(
   request: Request,
-  { params }: { params: Promise<{ id: string }> } // 1. Type as Promise
+  { params }: { params: Promise<{ id: string }> } // Params is a Promise in Next.js 15
 ) {
-  // 2. Await the params
+  // Await params before usage
   const { id: jobId } = await params;
 
   const body = await request.json();

@@ -6,14 +6,13 @@ import { Job } from '../../../types/types';
 
 export async function GET(
   request: Request,
-  { params }: { params: Promise<{ id: string }> } // 1. Type as Promise
+  { params }: { params: Promise<{ id: string }> } // Params is a Promise in Next.js 15
 ) {
-  // 2. Await the params object
+  // Await params before access
   const { id } = await params;
 
   const db = await readDb();
   
-  // 3. Use the awaited id
   const job = db.jobs.find((j) => j.id === id);
 
   if (!job) {

@@ -275,7 +275,7 @@
 // // The Code He Wants (The "Caller" Pattern)
 // // He likely wants you to use the "Server Caller" pattern. This allows you to "call" your tRPC procedures directly inside a Server Action or Server Component as if they were normal functions.
 
-// // Step 1: Create your Router (Standard tRPC)
+// // Create your Router (Standard tRPC)
 // // server/routers/user.ts
 // import { z } from 'zod';
 // import { publicProcedure, router } from '@/server/trpc';
@@ -291,7 +291,7 @@
 // export const appRouter = router({
 //   user: userRouter,
 // });
-// // Step 2: Create the "Caller" (The Magic Link)
+// // Create the "Caller" (The Magic Link)
 // // This is the file that bridges tRPC and Server Actions. server/index.ts
 // import { appRouter } from './routers/app';
 // import { createCallerFactory } from './trpc'; // standard tRPC factory
@@ -304,7 +304,7 @@
 //   const ctx = await createContext();
 //   return createCaller(ctx);
 // }
-// // Step 3: The Server Action (What he asked for)
+// // The Server Action implementation
 // // Instead of the client calling trpc.user.create.useMutation(), you create a Server Action that calls the logic directly. actions.ts
 // 'use server'
 // import { serverClient } from '@/server'
@@ -313,10 +313,10 @@
 // export async function createTodoAction(formData: FormData) {
 //   const name = formData.get('name') as string;
 
-//   // 1. Get the tRPC caller
+//   // Get the tRPC caller
 //   const trpc = await serverClient();
 
-//   // 2. Call the procedure DIRECTLY (No HTTP fetch!)
+//   // Call the procedure directly (bypass HTTP fetch)
 //   // This runs validation and the mutation logic defined in your router
 //   await trpc.user.createUser({ name });
 

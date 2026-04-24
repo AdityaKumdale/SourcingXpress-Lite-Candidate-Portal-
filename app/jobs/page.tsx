@@ -2,7 +2,7 @@ import { getJobs } from "../lib/api";
 import JobsClientPage from "../components/JobsClientPage"; 
 import { serverClient } from "../server";
 
-// 1. Define the props type correctly for Next.js 15
+// Define props for Next.js 15 server component
 type Props = {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
@@ -17,21 +17,21 @@ export default async function JobsPage({ searchParams }:Props) {            // {
 
 
 
-   // 2. AWAIT the searchParams before accessing properties
+   // Await searchParams as required by Next.js 15
   const resolvedSearchParams = await searchParams;
   
-  // 3. Safely extract strings (handling arrays/undefined)
+  // Extract and normalize search parameters
   const search = typeof resolvedSearchParams.search === 'string' ? resolvedSearchParams.search : "";
   const tab = typeof resolvedSearchParams.tab === 'string' ? resolvedSearchParams.tab : "live";
 
-  // // 4. Fetch Live Jobs ON THE SERVER using the extracted string
+  // Fetch live jobs using the search query
   // const liveJobs = await getJobs(search);
 
   // CHANGE: Call tRPC serverClient directly
   const liveJobs = await serverClient.jobs.list({ search });
 
   
-  // 2. Pass this initial data to the client component.
+  // Hydrate the client component with initial server data
   // The client component will handle the "Applied Jobs" logic since it needs localStorage.
   return (
     <main className="min-h-screen bg-white">

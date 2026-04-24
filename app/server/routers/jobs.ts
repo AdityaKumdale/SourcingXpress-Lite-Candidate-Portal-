@@ -1,6 +1,6 @@
-import { router, publicProcedure,TRPCError  } from '../trpc';
+import { router, publicProcedure, TRPCError } from '../trpc';
 import { z } from 'zod';
-import { readDb,writeDb } from '../../lib/db';
+import { readDb, writeDb } from '../../lib/db';
 import { randomUUID } from 'crypto';
 
 
@@ -17,7 +17,7 @@ export const jobsRouter = router({
       if (input.search) {
         const searchTerms = input.search.toLowerCase().split(' ').filter(t => t)  //Keeps only truthy values (non-empty strings)
         jobs = jobs.filter(job => {
-          return searchTerms.every(term => 
+          return searchTerms.every(term =>
             job.title.toLowerCase().includes(term) ||
             job.company.toLowerCase().includes(term) ||
             job.location.toLowerCase().includes(term) ||
@@ -34,7 +34,7 @@ export const jobsRouter = router({
     .query(async ({ input }) => {
       const db = await readDb();
       const job = db.jobs.find((j) => j.id === input.id);
-      
+
       if (!job) {
         throw new TRPCError({ code: 'NOT_FOUND', message: 'Job not found' });
       }
@@ -45,7 +45,7 @@ export const jobsRouter = router({
   submit: publicProcedure
     .input(z.object({
       jobId: z.string(),
-      userId: z.string() 
+      userId: z.string()
     }))
     .mutation(async ({ input }) => {
       const db = await readDb();
@@ -56,9 +56,9 @@ export const jobsRouter = router({
       );
 
       if (existing) {
-        throw new TRPCError({ 
-          code: 'CONFLICT', 
-          message: 'Already applied to this job' 
+        throw new TRPCError({
+          code: 'CONFLICT',
+          message: 'Already applied to this job'
         });
       }
 
@@ -79,22 +79,22 @@ export const jobsRouter = router({
 
   // Get Applied Jobs (from app/api/applications/route.ts)
   getApplied: publicProcedure
-    .input(z.object({ 
+    .input(z.object({
       userId: z.string(),
       search: z.string().optional()
     }))
     .query(async ({ input }) => {
       const db = await readDb();
-      
+
       // Get applications for this user
       const userApps = db.applications.filter(app => app.userId === input.userId);
-      
+
       // Create a map of jobId -> status
       const appStatusMap = new Map<string, "pending" | "reviewed" | "rejected">();
       userApps.forEach(app => appStatusMap.set(app.jobId, app.status));
-      
+
       const appliedJobIds = Array.from(appStatusMap.keys());
-      
+
       // Filter jobs
       let jobs = db.jobs.filter(job => appliedJobIds.includes(job.id));
 
@@ -102,7 +102,7 @@ export const jobsRouter = router({
       if (input.search) {
         const searchTerms = input.search.toLowerCase().split(' ').filter(t => t);
         jobs = jobs.filter(job => {
-          return searchTerms.every(term => 
+          return searchTerms.every(term =>
             job.title.toLowerCase().includes(term) ||
             job.company.toLowerCase().includes(term) ||
             job.location.toLowerCase().includes(term)
