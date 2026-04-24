@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/LearnReactNative/Challenges/Sourcingxpress%20V2%20Next%20Clone%20Project/app/page.tsx"],"sourcesContent":["export default function Page() {        \r\n  return (\r\n    <main className=\"h-screen flex flex-col items-center justify-center\">\r\n      <h1 className=\"text-4xl font-bold text-blue-600\">\r\n        Next.js + TypeScript + Tailwind is working! 🎉\r\n      </h1>\r\n\r\n      <p className=\"mt-4 text-lg\">\r\n        If you can see this styled text, everything is installed correctly.\r\n      </p>\r\n\r\n      <button className=\"mt-6 px-6 py-2 rounded bg-black text-white hover:bg-gray-800\">\r\n        Test Button\r\n      </button>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAmC;;;;;;0BAIjD,8OAAC;gBAAE,WAAU;0BAAe;;;;;;0BAI5B,8OAAC;gBAAO,WAAU;0BAA+D;;;;;;;;;;;;AAKvF"}}]
+}

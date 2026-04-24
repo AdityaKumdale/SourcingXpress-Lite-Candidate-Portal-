@@ -1,0 +1,784 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior Frontend Developer",
+      "company": "Accelon",
+      "companyType": [
+        "Enterprise",
+        "Product & Service",
+        "B2B"
+      ],
+      "stage": "Series A",
+      "industry": "Software Development",
+      "location": "Pune, Maharashtra, India",
+      "workMode": "Hybrid",
+      "employmentType": "Permanent",
+      "experience": "6-12 Years",
+      "salary": "₹ 24-34 Lacs PA",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Node.js",
+        "AWS"
+      ],
+      "description": "We are looking for a talented professional to join our growing team. You will work on cutting-edge projects and collaborate with cross-functional teams to deliver high-quality solutions.",
+      "requirements": [
+        "Strong problem-solving skills",
+        "Excellent communication abilities",
+        "Experience with modern development practices",
+        "Ability to work in a fast-paced environment"
+      ],
+      "postedDate": "2025-11-20T10:30:00.000Z",
+      "applicationCount": 15,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "title": "Engineering Manager",
+      "company": "Quidcash",
+      "companyType": [
+        "Startup",
+        "Product",
+        "B2C"
+      ],
+      "stage": "Seed",
+      "industry": "Fintech",
+      "location": "Bangalore, Karnataka, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "8-12 Years",
+      "salary": "₹ 40-60 Lacs PA",
+      "skills": [
+        "Leadership",
+        "Python",
+        "Java",
+        "AWS",
+        "Docker"
+      ],
+      "description": "We are looking for a talented professional to join our growing team. You will work on cutting-edge projects and collaborate with cross-functional teams to deliver high-quality solutions.",
+      "requirements": [
+        "Strong problem-solving skills",
+        "Excellent communication abilities",
+        "Experience with modern development practices",
+        "Ability to work in a fast-paced environment"
+      ],
+      "postedDate": "2025-11-15T14:20:00.000Z",
+      "applicationCount": 28,
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "title": "Full Stack Developer",
+      "company": "TechCorp",
+      "companyType": [
+        "Enterprise",
+        "Service",
+        "B2B"
+      ],
+      "stage": "Series B",
+      "industry": "Software Development",
+      "location": "Mumbai, Maharashtra, India",
+      "workMode": "Remote",
+      "employmentType": "Permanent",
+      "experience": "2-5 Years",
+      "salary": "₹ 15-25 Lacs PA",
+      "skills": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "GraphQL",
+        "REST APIs",
+        "GraphQL",
+        "GraphQL",
+        "GraphQL",
+        "GraphQL",
+        "GraphQL",
+        "GraphQL",
+        "GraphQL",
+        "GraphQL"
+      ],
+      "description": "We are looking for a talented professional to join our growing team. You will work on cutting-edge projects and collaborate with cross-functional teams to deliver high-quality solutions.",
+      "requirements": [
+        "Strong problem-solving skills",
+        "Excellent communication abilities",
+        "Experience with modern development practices",
+        "Ability to work in a fast-paced environment"
+      ],
+      "postedDate": "2025-11-10T09:15:00.000Z",
+      "applicationCount": 42,
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "title": "Backend Developer",
+      "company": "NeonLabs",
+      "companyType": [
+        "Startup",
+        "Product",
+        "B2B"
+      ],
+      "stage": "Seed",
+      "industry": "AI/ML",
+      "location": "Remote",
+      "workMode": "Remote",
+      "employmentType": "Permanent",
+      "experience": "2-6 Years",
+      "salary": "₹ 18-30 Lacs PA",
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "description": "Build scalable backend systems and work with AI-focused infrastructure.",
+      "requirements": [
+        "Strong debugging skills",
+        "Experience with distributed systems",
+        "Comfortable with CI/CD",
+        "Knowledge of caching and queues"
+      ],
+      "postedDate": "2025-11-18T10:00:00.000Z",
+      "applicationCount": 12,
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "title": "Mobile App Developer",
+      "company": "AppNation",
+      "companyType": [
+        "Product",
+        "Startup"
+      ],
+      "stage": "Series A",
+      "industry": "Mobile Apps",
+      "location": "Hyderabad, Telangana, India",
+      "workMode": "Hybrid",
+      "employmentType": "Permanent",
+      "experience": "1-4 Years",
+      "salary": "₹ 10-18 Lacs PA",
+      "skills": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Flutter",
+        "Firebase"
+      ],
+      "description": "Develop high-quality Android apps with modern architectures.",
+      "requirements": [
+        "Strong UI concepts",
+        "Experience with MVVM",
+        "Understanding of offline-first apps",
+        "Knowledge of performance optimization"
+      ],
+      "postedDate": "2025-11-17T09:12:00.000Z",
+      "applicationCount": 20,
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "title": "Data Engineer",
+      "company": "InsightWorks",
+      "companyType": [
+        "Enterprise",
+        "Service"
+      ],
+      "stage": "Series C",
+      "industry": "Data Analytics",
+      "location": "Gurugram, Haryana, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "3-6 Years",
+      "salary": "₹ 22-32 Lacs PA",
+      "skills": [
+        "Python",
+        "Airflow",
+        "Spark",
+        "AWS",
+        "BigQuery"
+      ],
+      "description": "Design and maintain data pipelines for enterprise clients.",
+      "requirements": [
+        "Strong SQL knowledge",
+        "Understanding of ETL patterns",
+        "Experience with cloud data lakes",
+        "Debugging large datasets"
+      ],
+      "postedDate": "2025-11-16T11:50:00.000Z",
+      "applicationCount": 18,
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "title": "DevOps Engineer",
+      "company": "CloudPort",
+      "companyType": [
+        "Product",
+        "B2B"
+      ],
+      "stage": "Series B",
+      "industry": "Cloud Infrastructure",
+      "location": "Pune, Maharashtra, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "4-8 Years",
+      "salary": "₹ 28-40 Lacs PA",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Linux"
+      ],
+      "description": "Maintain and scale cloud infrastructure and CI/CD workflows.",
+      "requirements": [
+        "Experience with IaC",
+        "Strong grasp of containers",
+        "Knowledge of monitoring tools",
+        "Ability to automate workflows"
+      ],
+      "postedDate": "2025-11-14T09:30:00.000Z",
+      "applicationCount": 26,
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "title": "AI Research Engineer",
+      "company": "BrainForge",
+      "companyType": [
+        "Startup",
+        "Product"
+      ],
+      "stage": "Series A",
+      "industry": "Artificial Intelligence",
+      "location": "Bangalore, Karnataka, India",
+      "workMode": "Hybrid",
+      "employmentType": "Permanent",
+      "experience": "2-5 Years",
+      "salary": "₹ 25-35 Lacs PA",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Deep Learning"
+      ],
+      "description": "Work on cutting-edge AI and foundation model research.",
+      "requirements": [
+        "Mathematical foundation",
+        "Strong ML knowledge",
+        "Model evaluation experience",
+        "Understanding of LLMs"
+      ],
+      "postedDate": "2025-11-13T10:00:00.000Z",
+      "applicationCount": 14,
+      "isActive": true
+    },
+    {
+      "id": "9",
+      "title": "QA Automation Engineer",
+      "company": "TestFlow",
+      "companyType": [
+        "Service",
+        "Enterprise"
+      ],
+      "stage": "Series C",
+      "industry": "Software Testing",
+      "location": "Chennai, Tamil Nadu, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "2-5 Years",
+      "salary": "₹ 12-20 Lacs PA",
+      "skills": [
+        "Selenium",
+        "Cypress",
+        "Java",
+        "API Testing"
+      ],
+      "description": "Automate test cases and ensure product quality.",
+      "requirements": [
+        "Understanding of automation frameworks",
+        "Strong analytical ability",
+        "Experience with regression testing",
+        "Knowledge of CI pipelines"
+      ],
+      "postedDate": "2025-11-12T11:10:00.000Z",
+      "applicationCount": 10,
+      "isActive": true
+    },
+    {
+      "id": "10",
+      "title": "UI/UX Designer",
+      "company": "DesignHive",
+      "companyType": [
+        "Product"
+      ],
+      "stage": "Series B",
+      "industry": "Design",
+      "location": "Remote",
+      "workMode": "Remote",
+      "employmentType": "Contract",
+      "experience": "1-4 Years",
+      "salary": "₹ 8-14 Lacs PA",
+      "skills": [
+        "Figma",
+        "Wireframing",
+        "Prototyping",
+        "User Research"
+      ],
+      "description": "Work on web and mobile app interfaces.",
+      "requirements": [
+        "Good design sense",
+        "Portfolio required",
+        "Understanding of UX principles",
+        "Team collaboration"
+      ],
+      "postedDate": "2025-11-11T09:45:00.000Z",
+      "applicationCount": 7,
+      "isActive": true
+    },
+    {
+      "id": "11",
+      "title": "Cloud Architect",
+      "company": "InfraX",
+      "companyType": [
+        "Enterprise",
+        "B2B"
+      ],
+      "stage": "Series D",
+      "industry": "Cloud",
+      "location": "Mumbai, Maharashtra, India",
+      "workMode": "Hybrid",
+      "employmentType": "Permanent",
+      "experience": "8-14 Years",
+      "salary": "₹ 45-70 Lacs PA",
+      "skills": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "Kubernetes",
+        "Architecture"
+      ],
+      "description": "Design solutions for multi-cloud enterprise clients.",
+      "requirements": [
+        "Strong architecture skills",
+        "Experience with scaling",
+        "Understanding of security",
+        "Excellent leadership qualities"
+      ],
+      "postedDate": "2025-11-10T08:50:00.000Z",
+      "applicationCount": 9,
+      "isActive": true
+    },
+    {
+      "id": "12",
+      "title": "Product Manager",
+      "company": "ThinkAhead",
+      "companyType": [
+        "Startup",
+        "Product"
+      ],
+      "stage": "Seed",
+      "industry": "SaaS",
+      "location": "Remote",
+      "workMode": "Remote",
+      "employmentType": "Permanent",
+      "experience": "3-6 Years",
+      "salary": "₹ 22-35 Lacs PA",
+      "skills": [
+        "Product Strategy",
+        "Analytics",
+        "Roadmapping"
+      ],
+      "description": "Define product vision and work with engineering teams.",
+      "requirements": [
+        "Data-driven thinking",
+        "Strong communication",
+        "Prior PM experience",
+        "Customer empathy"
+      ],
+      "postedDate": "2025-11-09T12:00:00.000Z",
+      "applicationCount": 13,
+      "isActive": true
+    },
+    {
+      "id": "13",
+      "title": "Cybersecurity Analyst",
+      "company": "ShieldSec",
+      "companyType": [
+        "Enterprise"
+      ],
+      "stage": "Series C",
+      "industry": "Security",
+      "location": "Delhi, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "2-5 Years",
+      "salary": "₹ 18-28 Lacs PA",
+      "skills": [
+        "SIEM",
+        "Penetration Testing",
+        "VAPT",
+        "Linux"
+      ],
+      "description": "Monitor, detect and respond to security incidents.",
+      "requirements": [
+        "Strong security fundamentals",
+        "Understanding of OWASP",
+        "Knowledge of tools like BurpSuite",
+        "Incident response experience"
+      ],
+      "postedDate": "2025-11-08T10:20:00.000Z",
+      "applicationCount": 17,
+      "isActive": true
+    },
+    {
+      "id": "14",
+      "title": "System Administrator",
+      "company": "TechOps",
+      "companyType": [
+        "Service"
+      ],
+      "stage": "Series B",
+      "industry": "IT Services",
+      "location": "Kolkata, West Bengal, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "1-4 Years",
+      "salary": "₹ 6-12 Lacs PA",
+      "skills": [
+        "Linux",
+        "Networking",
+        "Shell Scripting",
+        "Monitoring"
+      ],
+      "description": "Maintain system uptime and oversee IT infra.",
+      "requirements": [
+        "Knowledge of networks",
+        "Experience managing servers",
+        "Debugging hardware issues",
+        "Monitoring skills"
+      ],
+      "postedDate": "2025-11-07T11:00:00.000Z",
+      "applicationCount": 8,
+      "isActive": true
+    },
+    {
+      "id": "15",
+      "title": "Machine Learning Engineer",
+      "company": "VisionAI",
+      "companyType": [
+        "Startup"
+      ],
+      "stage": "Series A",
+      "industry": "Computer Vision",
+      "location": "Bangalore, Karnataka, India",
+      "workMode": "Hybrid",
+      "employmentType": "Permanent",
+      "experience": "2-6 Years",
+      "salary": "₹ 20-32 Lacs PA",
+      "skills": [
+        "Python",
+        "OpenCV",
+        "PyTorch",
+        "TensorRT"
+      ],
+      "description": "Build computer vision pipelines and inference models.",
+      "requirements": [
+        "Understanding of CNNs",
+        "Knowledge of datasets & augmentation",
+        "Real-time inference optimization",
+        "Strong math background"
+      ],
+      "postedDate": "2025-11-06T09:00:00.000Z",
+      "applicationCount": 21,
+      "isActive": true
+    },
+    {
+      "id": "16",
+      "title": "Frontend React Developer",
+      "company": "PixelSoft",
+      "companyType": [
+        "Product"
+      ],
+      "stage": "Series B",
+      "industry": "SaaS",
+      "location": "Remote",
+      "workMode": "Remote",
+      "employmentType": "Permanent",
+      "experience": "1-3 Years",
+      "salary": "₹ 8-15 Lacs PA",
+      "skills": [
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "REST"
+      ],
+      "description": "Work on dashboards and frontend UI components.",
+      "requirements": [
+        "Strong JS fundamentals",
+        "Experience with design systems",
+        "Good debugging skills",
+        "Working knowledge of APIs"
+      ],
+      "postedDate": "2025-11-05T08:00:00.000Z",
+      "applicationCount": 30,
+      "isActive": true
+    },
+    {
+      "id": "17",
+      "title": "Full Stack Java Developer",
+      "company": "FinTechIO",
+      "companyType": [
+        "Startup",
+        "B2B"
+      ],
+      "stage": "Series A",
+      "industry": "Fintech",
+      "location": "Pune, Maharashtra, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "3-7 Years",
+      "salary": "₹ 18-28 Lacs PA",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "MySQL"
+      ],
+      "description": "Develop fintech APIs and admin dashboards.",
+      "requirements": [
+        "Knowledge of DSA",
+        "Experience with microservices",
+        "Strong DB concepts",
+        "Understanding of payment systems"
+      ],
+      "postedDate": "2025-11-04T09:30:00.000Z",
+      "applicationCount": 11,
+      "isActive": true
+    },
+    {
+      "id": "18",
+      "title": "Graphics Designer",
+      "company": "Artify",
+      "companyType": [
+        "Service"
+      ],
+      "stage": "Bootstrap",
+      "industry": "Design",
+      "location": "Goa, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "1-3 Years",
+      "salary": "₹ 5-10 Lacs PA",
+      "skills": [
+        "Photoshop",
+        "Illustrator",
+        "Branding",
+        "Creativity"
+      ],
+      "description": "Create brand assets and design marketing materials.",
+      "requirements": [
+        "Creative mindset",
+        "Strong portfolio",
+        "Understanding of brand identity",
+        "Attention to detail"
+      ],
+      "postedDate": "2025-11-03T12:00:00.000Z",
+      "applicationCount": 6,
+      "isActive": true
+    },
+    {
+      "id": "19",
+      "title": "Business Analyst",
+      "company": "DataAxis",
+      "companyType": [
+        "Enterprise"
+      ],
+      "stage": "Series C",
+      "industry": "Consulting",
+      "location": "Delhi, India",
+      "workMode": "Hybrid",
+      "employmentType": "Permanent",
+      "experience": "2-5 Years",
+      "salary": "₹ 10-18 Lacs PA",
+      "skills": [
+        "Excel",
+        "SQL",
+        "PowerBI",
+        "Requirement Gathering"
+      ],
+      "description": "Analyze business requirements and create reports.",
+      "requirements": [
+        "Strong analytical mindset",
+        "Comfort with large datasets",
+        "Documentation ability",
+        "Client-facing communication"
+      ],
+      "postedDate": "2025-11-02T10:20:00.000Z",
+      "applicationCount": 19,
+      "isActive": true
+    },
+    {
+      "id": "20",
+      "title": "Content Writer",
+      "company": "WriteSphere",
+      "companyType": [
+        "Product"
+      ],
+      "stage": "Seed",
+      "industry": "Media",
+      "location": "Remote",
+      "workMode": "Remote",
+      "employmentType": "Contract",
+      "experience": "0-2 Years",
+      "salary": "₹ 3-6 Lacs PA",
+      "skills": [
+        "Writing",
+        "SEO",
+        "Research"
+      ],
+      "description": "Write blogs, guides, and marketing content.",
+      "requirements": [
+        "Strong grammar",
+        "Basic SEO knowledge",
+        "Good research ability",
+        "Creativity"
+      ],
+      "postedDate": "2025-11-01T09:00:00.000Z",
+      "applicationCount": 8,
+      "isActive": true
+    },
+    {
+      "id": "21",
+      "title": "SRE Engineer",
+      "company": "OpsBridge",
+      "companyType": [
+        "Enterprise"
+      ],
+      "stage": "Series D",
+      "industry": "Infrastructure",
+      "location": "Bangalore, Karnataka, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "4-8 Years",
+      "salary": "₹ 30-45 Lacs PA",
+      "skills": [
+        "Kubernetes",
+        "Prometheus",
+        "Go",
+        "Linux"
+      ],
+      "description": "Ensure system reliability and maintain SLAs.",
+      "requirements": [
+        "Strong observability concepts",
+        "Experience with autoscaling",
+        "Debugging production issues",
+        "Incident management"
+      ],
+      "postedDate": "2025-10-30T11:00:00.000Z",
+      "applicationCount": 16,
+      "isActive": true
+    },
+    {
+      "id": "22",
+      "title": "Blockchain Developer",
+      "company": "ChainWorks",
+      "companyType": [
+        "Startup"
+      ],
+      "stage": "Series A",
+      "industry": "Web3",
+      "location": "Remote",
+      "workMode": "Remote",
+      "employmentType": "Permanent",
+      "experience": "1-4 Years",
+      "salary": "₹ 12-20 Lacs PA",
+      "skills": [
+        "Solidity",
+        "Smart Contracts",
+        "Web3.js",
+        "Ethereum"
+      ],
+      "description": "Develop smart contracts and Web3 integrations.",
+      "requirements": [
+        "Understanding of blockchain concepts",
+        "Experience with audits",
+        "Knowledge of EVM",
+        "Gas optimization"
+      ],
+      "postedDate": "2025-10-29T09:00:00.000Z",
+      "applicationCount": 24,
+      "isActive": true
+    },
+    {
+      "id": "23",
+      "title": "Technical Support Engineer",
+      "company": "HelpDeskX",
+      "companyType": [
+        "Service"
+      ],
+      "stage": "Bootstrap",
+      "industry": "Support",
+      "location": "Ahmedabad, Gujarat, India",
+      "workMode": "On-site",
+      "employmentType": "Permanent",
+      "experience": "0-3 Years",
+      "salary": "₹ 4-7 Lacs PA",
+      "skills": [
+        "Troubleshooting",
+        "Customer Support",
+        "SQL"
+      ],
+      "description": "Resolve client issues and maintain support SLAs.",
+      "requirements": [
+        "Good communication",
+        "Basic tech knowledge",
+        "Ability to debug user issues",
+        "Patience and empathy"
+      ],
+      "postedDate": "2025-10-28T14:00:00.000Z",
+      "applicationCount": 13,
+      "isActive": true
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "email": "user@test.com",
+      "password": "123",
+      "name": "Test User"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app1",
+      "jobId": "1",
+      "userId": "u1",
+      "status": "pending",
+      "appliedDate": "2025-11-25T10:30:00.000Z"
+    },
+    {
+      "id": "app2",
+      "jobId": "2",
+      "userId": "u1",
+      "status": "reviewed",
+      "appliedDate": "2025-11-24T14:20:00.000Z"
+    },
+    {
+      "id": "a3ea7747-419c-4472-85e5-043b8bd579d1",
+      "jobId": "3",
+      "userId": "u1",
+      "status": "pending",
+      "appliedDate": "2025-11-28T13:43:07.767Z"
+    },
+    {
+      "id": "c78082d6-a075-439f-b1cc-eaeee2a2f129",
+      "jobId": "7",
+      "userId": "u1",
+      "status": "pending",
+      "appliedDate": "2025-12-17T13:19:13.757Z"
+    }
+  ],
+  "favorites": []
+}
