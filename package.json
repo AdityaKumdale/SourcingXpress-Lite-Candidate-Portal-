@@ -1,4 +1,7 @@
 {
+  "name": "sourcingxpress-lite-candidate-portal",
+  "version": "1.0.0",
+  "description": "Re-engineered the SourcingXpress candidate platform using Next.js 15 and tRPC. Developed a full-stack candidate management system featuring advanced multi-parameter search logic, duplicate-preventative job application workflows, and a real-time status tracking dashboard to optimize recruitment efficiency.",
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",
     "@trpc/client": "^11.8.0",
